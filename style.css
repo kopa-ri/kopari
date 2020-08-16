@@ -38,18 +38,10 @@ body {
     
     .main-left {
         width: 69%;
-        position: relative;
         margin-right:-5px;
     }
     
-    .icon {
-        position: absolute;
-        top:40px;
-        left:40px;
-        color:#fff;
-        font-size: 25px;
-        padding-right:10px;
-    }
+   
 
 
     .main-left img {
@@ -471,10 +463,15 @@ body {
         padding:60px;
         color: #fff;
         font-size: 18px;
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
     }
 
-    
+    .icon {
+        color:#fff;
+        font-size: 25px;
+        padding-right:10px;
+    }
 
 
 /*ボタンアニメーショん*/
