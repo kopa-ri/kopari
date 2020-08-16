@@ -1,0 +1,2 @@
+[2020-8-8 11:43:55] layer "ブラシ３.png のコピー": Expected end of input but "\u306E" found.
+[2020-8-8 11:43:55] layer "ブラシ３.png のコピー 2": Expected end of input but "\u306E" found.
