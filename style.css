@@ -54,7 +54,7 @@ body {
     .main-left h1 {
         position:absolute;
         left:16%;
-        bottom:8%;
+        bottom:12%;
         font-size: 100px;
         font-weight: 100;
         color:white;
@@ -255,7 +255,7 @@ body {
     /*メニュー*/
 
     .menu {
-        background-color:#fbf9ef;
+        background-color:#c9c6b8;
         padding:30px 0 ;
     }
     .menu h2 {
@@ -338,7 +338,7 @@ body {
       
     .blog {
         width:100%;
-        background-color:#c9c6b8;
+        background-color:#fbf9ef;
     }
     
     .blog-inner {
@@ -413,9 +413,9 @@ body {
         line-height: 350px;
     }
     .next {
-        background: #c9c6b8;
+        background: #fbf9ef;
         border-radius: 15%;
-        box-shadow: 9.91px 9.91px 15px #B7B4A7, -9.91px -9.91px 15px #DBD8C9;
+        box-shadow: 9.91px 9.91px 15px #E4E3D9, -9.91px -9.91px 15px #ffffff;
         width:50px;
         height:50px;
         display: inline-block;
@@ -423,8 +423,10 @@ body {
         line-height: 55px;
         font-size:24px;
         font-weight:400;
-        color:#fff;
+        color:#808080;
     }
+
+   
     .next:hover {
         opacity: 0.6;
     }
@@ -459,6 +461,7 @@ body {
 
     .footer-contents {
         width:80%;
+        height:100%;
         margin: 0 auto;
         padding:60px;
         color: #fff;
@@ -692,3 +695,4 @@ button.btn {
     }
     
 }
+
