@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset@charset "UTF-8";
 
 
 *,*::before,*::after{box-sizing:border-box}ul[class],ol[class]{padding:0}body,h1,h2,h3,h4,p,ul[class],ol[class],figure,blockquote,dl,dd{margin:0}html{scroll-behavior:smooth}body{min-height:100vh;text-rendering:optimizeSpeed;line-height:1.5}ul[class],ol[class]{list-style:none}a:not([class]){text-decoration-skip-ink:auto}img,picture{max-width:100%;display:block}article>*+*{margin-top:1em}input,button,textarea,select{font:inherit}img:not([alt]){filter:blur(10px)}@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important}}
@@ -23,7 +23,6 @@ body {
       
       a:hover { 
         transition: .3s;
-      
         cursor: pointer;
       }
       
@@ -41,9 +40,6 @@ body {
         width: 69%;
         margin-right:-5px;
     }
-    
-   
-
 
     .main-left img {
         width:100%;
@@ -82,7 +78,7 @@ body {
     
     .main-right nav {
         position:fixed;
-        right :110px;
+        right :6%;
         top:50px;
         z-index: 1;
         
@@ -94,7 +90,7 @@ body {
     }
     
     .main-right nav ul li a {
-        color:#fff;
+        color:#999898;
     }
 
     .item-text{
@@ -108,7 +104,7 @@ body {
         bottom: -10px;/*テキストからの距離*/
         width: 0%;/*初期状態では下線非表示*/
         height: 2px;/*下線の高さ*/
-        background: #fff;/*下線の色*/
+        background: #999898;/*下線の色*/
         z-index: -1;
         transition: all 0.4s;/*アニメーション速度*/
       }
@@ -143,15 +139,12 @@ body {
         box-sizing:border-box;
     }
      
-
-     
     .left-box {
         position:absolute;
         width:50%;
         height:100%;
         padding:1em;
         left:0;
-       
     }
 
     .left-inner {
@@ -166,7 +159,6 @@ body {
         font-weight:200;
         font-size:64px;
         background: url(cafe-image/ブラシ３.png) no-repeat -150px 10px;
-       
             
     }
     
@@ -280,8 +272,6 @@ body {
       width:25%;
       
     }
-    
-    
     .menu-img {
         width:100%;
         object-fit: cover;
@@ -344,15 +334,14 @@ body {
         
     }
     
-    .blog-inner h2 {
-       font-family: 'Josefin Sans', sans-serif;
+    .line {
+        font-family: 'Josefin Sans', sans-serif;
        font-size:60px;
        font-weight:200;
        margin:0 0 10px 0;
        padding-left:20px;
        color:#8c7d71;
-       background: url(cafe-image/ブラシ.png) no-repeat;
-      
+       background: url(cafe-image/ブラシ２.png) no-repeat;
     }
     
 
@@ -364,7 +353,8 @@ body {
     .blog-contents { 
         background-color:#fff;
         border-radius: 0 0 30px 30px;
-        width:33.3%;
+        width:28%;
+        height:280px;
         margin-right:15px;
         box-shadow: 1px 3px 8px 2px rgba(128, 124, 91, 0.5);
     }
@@ -373,7 +363,7 @@ body {
     
     .blog-contents img {
         width:100%;
-        height:200px;
+        height:170px;
         object-fit: cover;
         opacity: 1;
         transition: .3s ease-in-out;
@@ -387,7 +377,7 @@ body {
       
     .text-box {
         width:85%;
-        margin:20px auto 30px;
+        margin:20px auto 20px;
     
     }
     .text-box h3 {
@@ -432,6 +422,7 @@ body {
         display: flex;
         margin-top: 70px;
         padding-bottom: 90px;
+       
     }
     
     .box {
@@ -443,6 +434,10 @@ body {
         margin-left:20px;
     }
     
+    .google-map {
+        width:60%;
+        margin-left:10%;
+    }
     .map2 {
         display: none;
     }
@@ -460,11 +455,20 @@ body {
         height:100%;
         margin: 0 auto;
         padding:60px;
-        color: #fff;
-        font-size: 18px;
         display: flex;
         justify-content: space-between;
     }
+
+    .footer-contents h2 {
+        color: #fff;
+        font-size: 32px;
+    }
+
+    .footer-contents a:hover{
+        opacity: .6;
+        
+    }
+
 
     .icon {
         color:#fff;
@@ -473,7 +477,7 @@ body {
     }
 
 
-/*ボタンアニメーショん*/
+/*ボタンアニメーション*/
     *,
 *:before,
 *:after {
@@ -572,7 +576,7 @@ button.btn {
 
 
 
- @media (max-width:600px) { 
+ @media (max-width:900px) { 
 
     .about {
         width: 100%;
@@ -608,9 +612,9 @@ button.btn {
     
     
     .menu-inner {
-        display: unset;
-        width:80%;
-        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        width:70%;
     }
     
     .menu-contents {
@@ -628,21 +632,11 @@ button.btn {
     
   
     .title {
-        font-size:64px;
-        font-weight:100;
-        font-family:'Noto Serif JP', serif;
-        color:#8387a5;
-        letter-spacing: 3px;
-        border-bottom: #8c7d71 1px solid;
-
+        font-size:48px;
     }
 
     .menu-contents p{
-        font-family:'Noto Serif JP', serif;
-        font-size:24px;
-        color:#8c7d71;
-        margin-top: 10px;
-        line-height: 1.9;
+        font-size:16px;  
     }
 
     .more-btn {
@@ -651,34 +645,42 @@ button.btn {
         margin-bottom:50px;
     }
 
-    .article {
-        display: unset;
+    .article{
+        flex-direction: column;
+        align-items: center;
     }
     .blog-contents { 
         background-color:#fff;
         border-radius: 0 0 30px 30px;
-        width:100%;
-        margin-right:15px;
+        width:70%;
+        height:400px;
+        margin-bottom:30px;
         box-shadow: 1px 3px 8px 2px rgba(128, 124, 91, 0.5);
     }
+
+    .blog-contents img {
+        height:300px;
+    }
+
+
     .next-wrapper {
         line-height: 1;
+        margin-left:250px;
     }
 
 
     .map {
-        display: unset;
-        margin: 70px auto;
         padding-bottom: 90px;
+        flex-direction: column;
     }
     
     .box {
         width:100%;
     }
     .box p {
-        color:#8c7d71;
-        font-size:12px;
-        margin-left:20px;
+        
+        font-size:14px;
+        
     }
     
     .map1 {
@@ -686,8 +688,8 @@ button.btn {
     }
     .map2 {
         display: unset;
-        margin: 30px 0;
         padding-right:20px;
+        margin-top:20px;
     }
     
 }
