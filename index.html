@@ -4,163 +4,208 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>cafe Lh</title>
- <link rel="stylesheet" href="reset.css" type="text/css" media="screen">
+ <link rel="stylesheet" href="reset.css">
  <link rel="stylesheet" href="style.css">
  <link rel="icon" type="image/png" href="cafe-image/ファビコン.png">
  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="rap">
+    <div id="navArea">
 
-    <header>
-        <div class="header-inner">
-            <div class="main-left">
+        <nav>
+          <div class="inner">
             
-                <img src="cafe-image/店内.jpg" alt="">
-                <h1>cafe Lh</h1>
-            </div>
-            <div class="main-right">
-                <nav>
-                    <ul>
-                        <li><a href="" class="item">
-                            <span class="item-text">top</span></a>
-                        </li>
-                        <li><a href="" class="item">
-                            <span class="item-text">about</span></a>
-                        </li>
-                        <li><a href="" class="item">
-                            <span class="item-text">menu</span></a>
-                        </li>
-                        <li><a href="" class="item">
-                            <span class="item-text">blog</span></a>
-                        </li>
-                        <li><a href="" class="item">
-                            <span class="item-text"><i class="fab fa-instagram"></i></span></a>
-                        </li>
-                    </ul>
-                </nav>
-                <img src="cafe-image/照明.jpg" alt="ライト" class="light">
-                <img src="cafe-image/main-coffee.jpg" alt="コーヒー" class="grass">
+                <ul class="nav_btn">
+                    <li><a href="#rap" class="item">
+                        <span class="item-text">top</span></a>
+                    </li>
+                    <li><a href="#about" class="item">
+                        <span class="item-text">about</span></a>
+                    </li>
+                    <li><a href="#menu" class="item">
+                        <span class="item-text">menu</span></a>
+                    </li>
+                    <li><a href="#blog" class="item">
+                        <span class="item-text">blog</span></a>
+                    </li>
+                    <li><a href="#" class="item">
+                        <span class="item-text"><i class="fab fa-instagram"></i></span></a>
+                    </li>
+                </ul>
+            
+          </div>
+        </nav>
+      
+        <div class="toggle_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <div id="mask"></div>
+      
+      </div>
+    
+    <nav class="pc-nav">
+        <ul>
+            <li><a href="#rap" class="item">
+                <span class="item-text">top</span></a>
+            </li>
+            <li><a href="#about" class="item">
+                <span class="item-text">about</span></a>
+            </li>
+            <li><a href="#menu" class="item">
+                <span class="item-text">menu</span></a>
+            </li>
+            <li><a href="#blog" class="item">
+                <span class="item-text">blog</span></a>
+            </li>
+            <li><a href="#" class="item">
+                <span class="item-text"><i class="fab fa-instagram"></i></span></a>
+            </li>
+        </ul>
+    </nav>
+    <header class="fade-in-bottom">
+        <div class="header-inner">
+            <img src="cafe-image/cafemain.jpg" alt="カフェ店内" class="pcver">
+            <img src="cafe-image/spcafe-main.jpg" alt="カフェ店内" class="spver">
 
-            </div>
+            <h1>cafe Lh</h1>
         </div>
     </header>
   
-    <section class="about">
-        <div class="left-box">
-           <div class="left-inner">
-                <h2>about</h2>
-                <p>当店では誰もが居心地が良いと思える空間の提供を心がけています。素敵な空間はあなた自身を豊かにします。
-                    お仕事終わりに、休日の自由な時間に、一人で来てもつい時間も忘れてしまうような、いつもよりちょっぴり素敵なひとときを過ごしませんか？<br>
-                
-                <a href="＃" class="btn btn-border moremore">more</a>
-                </p>
-                
-        </div>
-        </div>
-        <div class="right-box">
-                <a href="#" class="scroll">scroll</a>
-                <div class="right-inner">
+    <section id="about">
+       
+            <div class="left-box">
+            <div class="left-inner">
+                    <h2 class="s-title">about</h2>
+                    <p>当店では誰もが居心地が良いと思える空間の提供を心がけています。素敵な空間はあなた自身を豊かにします。
+                        お仕事終わりに、休日の自由な時間に、一人で来てもつい時間も忘れてしまうような、いつもよりちょっぴり素敵なひとときを過ごしませんか？<br>
                     
-                    <img src="cafe-image/relax.jpg" alt="店内画像">
-                    <img src="cafe-image/about.jpg" alt="店内画像">
-                    <img src="cafe-image/lights.jpg" alt="店内画像">
-                    <img src="cafe-image/choco.jpg" alt="店内画像">
-                </div>
-        </div>
+                    <a href="＃" class="btn btn-border moremore">more</a>
+                    </p>
+                    
+            </div>
+            </div>
+            <div class="right-box">
+                    <a href="#" class="scroll">scroll</a>
+                    <div class="right-inner">
+                        
+                        <img src="cafe-image/relax.jpg" alt="店内画像">
+                        <img src="cafe-image/about.jpg" alt="店内画像">
+                        <img src="cafe-image/lights.jpg" alt="店内画像">
+                        <img src="cafe-image/choco.jpg" alt="店内画像">
+                    </div>
+            </div>
+        
      </section>
 
-    <section class="menu">
-        <h2>menu</h2>
-        <div class="menu-inner">
-            <div class="menu-contents">
-                
-                <img class="menu-img" src="cafe-image/coffee.jpg" alt="コーヒーメニュー">
-                <h3 class="title">coffee</h3>
-                <p>産地ごとの特徴を生かしたブレンドをご用意しています。またコーヒーを使った季節感溢れる期間限定ドリンクなど、皆さまを笑顔にするメニューを揃えています。</p>
+    <section id="menu">
+        <div class="wrapper">
+            <h2 class="s-title">menu</h2>
+            <div class="menu-inner">
+                <div class="menu-contents">
+                    
+                    <img class="menu-img" src="cafe-image/coffee.jpg" alt="コーヒーメニュー">
+                    <div class="m-group">
+                        <h3 class="title"><i class="fas fa-coffee"></i>coffee</h3>
+                        <p>産地ごとの特徴を生かしたブレンドをご用意しています。またコーヒーを使った季節感溢れる期間限定ドリンクなど、皆さまを笑顔にするメニューを揃えています。</p>
+                     </div>   
+                </div>
+
+
+                <div class="menu-contents">
+                    <img class="menu-img" src="cafe-image/toast.jpg" alt="フードメニュー">
+                    <div class="m-group">
+                        <h3 class="title"><i class="fas fa-cookie"></i>food</h3>
+                        <p>ちょっとお腹が空いた時に食べたいものから、オススメのあまいものまで、コーヒーと組み合わせてより楽しんでいただけるラインアップになっております。</p>
+                    </div>
+                </div>
+
+                <div class="menu-contents">
+                    <img class="menu-img" src="cafe-image/cocktali.jpg" alt="カクテルメニュー">
+                    <div class="m-group"> 
+                        <h3 class="title"><i class="fas fa-cocktail"></i>cocktail</h3>
+                        <p>コーヒーだけでなく、夜にはBarメニューも取り揃えています。スタンダードなものからオリジナルカクテルまで、様々なお味をお楽しみいただけます。</p>
+                    </div>
+                </div>
+
+            
             </div>
-
-
-            <div class="menu-contents">
-                
-                <img class="menu-img" src="cafe-image/toast.jpg" alt="フードメニュー">
-                <h3 class="title">food</h3>
-                <p>ちょっとお腹が空いた時に食べたいものから、オススメのあまいものまで、コーヒーと組み合わせてより楽しんでいただけるラインアップになっております。</p>
+            <div class="more-btn">
+            <a href="" class="btn btn-border">more</a>
             </div>
-
-            <div class="menu-contents">
-                
-                <img class="menu-img" src="cafe-image/cocktali.jpg" alt="カクテルメニュー">
-                <h3 class="title">cocktail</h3>
-                <p>コーヒーだけでなく、夜にはBarメニューも取り揃えています。スタンダードなものからオリジナルカクテルまで、様々なお味をお楽しみいただけます。</p>
-            </div>
-
-           
         </div>
-        <div class="more-btn">
-        <a href="" class="btn btn-border">more</a>
-            </dsiv>
     </section>
         <div class="parallax-bg"></div>
-        <section class="blog">
-            <div class="blog-inner">
-                <h2 class="line">blog</h2>
-                <div class="article">
-                    <div class="blog-contents">
+        <section id="blog">
+            <div class="wrapper">
+                <h2 class="s-title">blog</h2>
+                
+                   
+                    <div class="article">
+                        <div class="blog-contents">
+                            <a href="#">
+                                <img src="cafe-image/favo.jpg" alt="商品イメージ">
+                                <div class="text-box">
+                                    <p class="text">＃coffee</p>
+                                    <h3>こだわり商品の魅力をお届け</h3>
+                                    <p class="date">2020.8.4</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+
+                        <div class="blog-contents">
                         <a href="#">
-                            <img src="cafe-image/favo.jpg" alt="商品イメージ">
+                            <img src="cafe-image/summer.jpg" alt="ドリンクイメージ">
                             <div class="text-box">
-                                <h3>＃coffee</h3>
-                                <p class="text">こだわり商品の魅力をお届け</p>
-                                <p class="date">2020.8.4</p>
+                                <p class="text">#new arrival</p>
+                                <h3>夏季限定ドリンク登場！</h3>
+                                <p class="date">2020.7.20</p>
                             </div>
                         </a>
-                        
-                    </div>
-
-                    <div class="blog-contents">
-                      <a href="#">
-                        <img src="cafe-image/summer.jpg" alt="ドリンクイメージ">
-                        <div class="text-box">
-                            <h3>#new arrival</h3>
-                            <p class="text">夏季限定ドリンク登場！</p>
-                            <p class="date">2020.7.20</p>
                         </div>
-                      </a>
-                    </div>
 
-                    <div class="blog-contents">
-                        <a href="#">
-                        <img src="cafe-image/smile.jpg" alt="スタッフイメージ">
-                        <div class="text-box">
-                        <h3>#daily</h3>
-                        <p class="text"> スタッフのつぶやき</p>
-                        <p class="date">2020.7.11</p>
-                    </div>
-                    </a>
+                        <div class="blog-contents">
+                            <a href="#">
+                            <img src="cafe-image/smile.jpg" alt="スタッフイメージ">
+                            <div class="text-box">
+                            <p class="text">#daily</p>
+                            <h3> スタッフのつぶやき</h3>
+                            <p class="date">2020.7.11</p>
+                        </div>
+                        </a>
+                        </div>
                     </div>
                     <div class="next-wrapper">
                         <a href="#" class="next">＞</a>
                     </div>
-                </div>
                 
-            <div class="map">
-                <div class="box">
-                    <h2 class="line">access</h2>
-                    <p>〒XXXXXX<br>
-                        東京都港区赤坂
-                        ○○○-○○○<br>
-                        東京メトロ千代田線　赤坂駅　徒歩5分
-                    </p>
-                </div>
-                    <div class="google-map">
-                        <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.778088336217!2d139.73638!3d35.672212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0b3e2ef59fb6431!2z6LWk5Z2C6aeF!5e0!3m2!1sja!2sjp!4v1602599881145!5m2!1sja!2sjp" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        <iframe class="map2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.778088336217!2d139.73638!3d35.672212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0b3e2ef59fb6431!2z6LWk5Z2C6aeF!5e0!3m2!1sja!2sjp!4v1602599881145!5m2!1sja!2sjp" width="350" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-               
             </div>
+            
+            <div class="wrapper"> 
+                <h2 class="s-title">access</h2> 
+                
+                <div class="map">
+                    <div class="box">
+                        <p>〒XXXXXX<br>
+                            東京都港区赤坂
+                            ○○○-○○○<br>
+                            東京メトロ千代田線　<br>赤坂駅　徒歩5分
+                        </p>
+                        <img src="cafe-image/ファビコン.png" alt="コーヒーイラスト" > 
+                    </div>
+                        <div class="google-map">
+                            <iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.778088336217!2d139.73638!3d35.672212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0b3e2ef59fb6431!2z6LWk5Z2C6aeF!5e0!3m2!1sja!2sjp!4v1602599881145!5m2!1sja!2sjp" width="500" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            <iframe class="map2" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12964.778088336217!2d139.73638!3d35.672212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc0b3e2ef59fb6431!2z6LWk5Z2C6aeF!5e0!3m2!1sja!2sjp!4v1602599881145!5m2!1sja!2sjp" width="350" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                
+                </div>
+                </div>
             </div>
         </section>
         
@@ -174,6 +219,11 @@
         </div>
         
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
+       
+
 </body>
 
 </html>
