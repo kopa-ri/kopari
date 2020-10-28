@@ -878,9 +878,16 @@ button.btn {
     
     }
 
+   .parallax-bg { 
+     display:none; 
+  }
+  
+  
     .blog-contents {
         width:100%;
     }
+  
+  
     .box {
         display:unset;
     
