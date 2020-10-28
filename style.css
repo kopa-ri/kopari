@@ -846,6 +846,9 @@ button.btn {
           width:60%;
       }
 
+   .fade-in-bottom {
+     display:none;
+  }
     #rap {
         font-size:1.4rem;
     }
