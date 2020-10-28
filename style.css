@@ -841,7 +841,10 @@ button.btn {
         transition: all .5s;
       }
   
-  
+  .inner img {
+          margin-top:50px;
+          width:60%;
+      }
 
     #rap {
         font-size:1.4rem;
@@ -881,6 +884,10 @@ button.btn {
     .box {
         display:unset;
     
+    }
+  
+  .box img {
+        display:none;
     }
 
     .footer-contents {
